@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> weather dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+       
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script src="./script.js" async defer></script>
+        <script
+        <script type="text/javascript"></script>
+        <div class="conainter "></div>
+        <div class="columm"></div>
+        <div class="row"></div>
+        <h1>  Weather Board</h1>
+        <div class="row-"></div>
+        <h2> Search A City</h2>
+        <div class="row-lg"></div>
+        <h3> 5 Day Forecast</h3>
+
+     var  queryURL = api.openweathermap.org/data/2.5/forecast?q={city name},{state code},{country code}&appid={API key} 
+
+        $.ajax({url:queryURL,method:'GET'})
+         .done(function(response){
+             console.log(response);
+
+         }
+         )
+
+
+{
+    "cod":"200",
+    "message": 0,
+    "cnt":0,
+    "list": [
+    {
+"dt":,
+"main":{
+ "temp":0,
+ " humidity":0,
+
+},
+"weather": [
+{
+
+}
+"wind":{
+    "speed":0,
+
+},
+"city":{
+    "id":0,
+    "name":"",
+    <div class="card">
+        <div class="card-body">
+          
+        </div>
+      </div>
+
+
+}
+]
+ }
+    ]
+}
+      
+  ></script>     
+    </body>
+</html>
